@@ -33,6 +33,5 @@ urlpatterns = [
         name="genre-delete"
     ),
     path("actors/", ActorList.as_view(), name="actor-list"),
-    path("actors/", ActorList.as_view(), name="actor-list"),
     path("actors/<int:pk>/", ActorDetail.as_view(), name="actor-detail"),
 ]
